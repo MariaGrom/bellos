@@ -1,0 +1,22 @@
+.header__burger {
+    background-image: url('../../../image/burger.svg');
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    display: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1176px) {
+    .header__burger {
+        background-image: url('../../../image/burger.svg');
+        background-repeat: no-repeat;
+        background-size: 46px 46px;
+        display: block;
+        width: 46px;
+        height: 46px;
+        border: none;
+        background-color: transparent;
+    }
+}

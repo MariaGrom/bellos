@@ -1,0 +1,9 @@
+.slider__button_next {
+    background-image: url('../../../../image/next.svg');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}

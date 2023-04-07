@@ -1,0 +1,7 @@
+.slider__button {
+    width: 80px;
+    height: 50px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}

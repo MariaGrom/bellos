@@ -1,0 +1,14 @@
+.header__desktop{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1176px) {
+    .header__desktop{
+        display: none;
+    } 
+}

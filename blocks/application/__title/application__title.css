@@ -1,0 +1,25 @@
+.application__title{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'BuranUSSR', sans-serif;
+}
+
+@media screen and (max-width: 1024px){
+    .application__title {
+        padding: 0 0 20px 0;
+        
+    }
+}
+
+@media screen and (max-width: 475px){
+    .application__title {
+        font-size: 18px; 
+        line-height: 21px;
+        padding: 0 0 20px 0;
+        
+    }
+}

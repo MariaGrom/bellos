@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Тестовое задание">
+    <meta name="keywords" content="html, css">
+    <title>Беллос</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="header__content">
+            <img src="<%=require('../image/logo.svg')%>" alt="Логотип" class="header__logo">
+            <button class="header__burger"></button>
+            <div class="header__desktop">
+                <nav class="header__navigation">
+                    <a id="about" href="#" class="header__link" target="_parent">О компании</a>
+                    <a id="brands" href="#" class="header__link" target="_parent">Бренды</a>
+                    <a id="stock" href="#" class="header__link" target="_parent">Акции</a>
+                    <a id="contacts" href="#" class="header__link" target="_parent">Контакты</a>
+                </nav>
+                <ul class="header__networks">
+                    <li><a id="whatsapp" href="#" class="header__network" target="_blank"><img
+                                src="<%=require('../image/whatsapp.svg')%>" alt="whatsapp"
+                                class="header__icon header__icon-social"></a></li>
+                    <li><a id="telegram" href="#" class="header__network" target="_blank"><img
+                                src="<%=require('../image/telegram.svg')%>" alt="telegram"
+                                class="header__icon header__icon-social"></a></li>
+                    <li>
+                        <div class="header__cabinet">
+                            <img src="<%=require('../image/user.svg')%>" alt="кабинет"
+                                class="header__icon header__icon-user">
+                            <h2 class="header__text">Имя пользователя</h2>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="location">
+            <h2 class="location__title">Главная</h2>
+            <img src="<%=require('../image/chapter.svg')%>" alt="Раздел" class="location__image">
+            <h2 class="location__title">О компании</h2>
+        </section>
+        <section class="content">
+            <img src="<%=require('../image/logo.svg')%>" alt="Логотип" class="content__image">
+            <h2 class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.
+            </h2>
+            <div class="slider">
+                <div class="slider__line">
+                    <div class="slider__image slider__image-main slider__image_active">
+                            <button class="slider__button slider__button_prev"></button>
+                    </div>
+                    <div class="slider__image slider__image-secondary slider__image_disabled">
+                        <button class="slider__button slider__button_next"></button>
+                    </div>
+                </div>
+            </div>
+            <h2 class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.
+            </h2>
+        </section>
+        <section class="application">
+            <h2 class="application__title">Оставь заявку, чтобы узнать о продукции</h2>
+            <button class="application__button" type="button">заявка на личный кабинет</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <img src="<%=require('../image/logo.svg')%>" alt="Логотип"
+            class="footer__logo footer__logo-mobile">
+        <nav class="footer__navigation">
+            <a id="about-footer" href="#" class="footer__link" target="_parent">О компании</a>
+            <a id="brands-footer" href="#" class="footer__link" target="_parent">Бренды</a>
+            <a id="stock-footer" href="#" class="footer__link" target="_parent">Акции</a>
+            <a id="contacts-footer" href="#" class="footer__link" target="_parent">Контакты</a>
+            <a id="cabinet-footer" href="#" class="footer__link" target="_parent">Личный кабинет</a>
+        </nav>
+        <div class="footer__info">
+            <img src="<%=require('../image/logo.svg')%>" alt="Логотип" class="footer__logo">
+            <div class="footer__rules">
+                <h2 class="footer__title footer__adress">г. Москва, проезд Походный, д. 4 к. 1 этаж МАНСАРДНЫЙ пом. XIII
+                    Ч К №4</h2>
+                <h3 class="footer__title footer__privacy-policy">политика конфеденциальности</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

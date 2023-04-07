@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'DINCondensed-Regular';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('DINCondensed-Regular.woff2') format('woff2'),
+         url('DINCondensed-Regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'BebasNeueBold';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('BebasNeueBold.woff2') format('woff2'),
+         url('BebasNeueBold.woff') format('woff');
+  }
+  
+  @font-face {
+     font-family: 'BuranUSSR';
+     font-style:  normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url('BuranUSSR.woff2') format('woff2');
+   }

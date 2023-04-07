@@ -1,0 +1,20 @@
+.application{
+    margin: 0;
+    padding: 37px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+    .application{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 475px){
+    .application {
+        padding: 0;
+    }
+}

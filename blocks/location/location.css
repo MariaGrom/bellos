@@ -1,0 +1,12 @@
+.location{
+    margin: 0;
+    padding: 15px 0 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 475px) {
+    .location{
+        padding: 20px 0 25px 0;
+    } 
+}

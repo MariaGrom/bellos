@@ -1,0 +1,19 @@
+.footer__logo{
+    padding: 0 51px 0 0;
+    width: 175px;
+    margin: 0;
+    }
+    .footer__logo-mobile{
+        display: none;
+    }
+    
+    @media screen and (max-width: 768px){
+        .footer__logo{
+            display: none;
+        } 
+        .footer__logo-mobile{
+            display: block;
+            padding: 0;
+        }
+    }
+    

@@ -1,0 +1,11 @@
+.content__image{
+    margin: 0;
+    padding: 0;
+    width: 287px;
+    height: 135px;
+}
+@media screen and (max-width: 475px){
+    .content__image{
+        width: 238px;
+    } 
+}

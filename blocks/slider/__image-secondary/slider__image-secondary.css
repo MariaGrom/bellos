@@ -1,0 +1,6 @@
+.slider__image-secondary {
+    width: 50%;
+    overflow: hidden;
+    background-image: url('../../../image/slider-pic-2.svg');
+    position: relative;
+}
