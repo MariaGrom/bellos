@@ -1,4 +1,4 @@
-import '../styles/index.css' 
+import '../src/styles/index.css' 
 
 const buttonPrev = document.querySelector('.slider__button_prev');
 const buttonNext = document.querySelector('.slider__button_next');
