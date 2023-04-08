@@ -3,4 +3,14 @@
     overflow: hidden;
     background-image: url('../../../image/slider-pic-2.svg');
     position: relative;
+    height: 400px;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 475px) {
+    .slider__image-secondary {
+        height: 231px;
+    }
 }

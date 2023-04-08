@@ -8,3 +8,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 475px) {
+    .slider__image-main {
+        height: 231px;
+    }
+}

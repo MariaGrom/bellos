@@ -17,4 +17,13 @@
     line-height: 23px;
     color: #4A4A4A;
     font-family: 'BuranUSSR', sans-serif;
+    position: relative;
+    right: -20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .application__button {
+        position: static;
+    }
 }
